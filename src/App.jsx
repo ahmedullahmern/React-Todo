@@ -58,7 +58,7 @@ function App() {
         <ul className="max-w-md space-y-1 text-black list-disc list-inside dark:text-black">
           {todos.map((v, i) => <li>{v.value}   <button
             onClick={() => deltodo(i)}
-            className="inline-flex items-center py-2  px-7 ms-2 text-sm font-small text-white bg-red-700 rounded-lg border border-black "
+            className="inline-flex items-center py-2  px-7 ms-2 text-sm font-small text-white bg-red-900 rounded-lg border border-black "
           >
             Del
           </button></li>)}
