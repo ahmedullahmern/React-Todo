@@ -24,7 +24,7 @@ function App() {
 
 
       <div className="flex items-center max-w-lg mx-auto mt-10">
-        <h1 className="text-5xl font-bold dark:text-white">React Todo</h1>
+        <h1 className="text-5xl font-semibold dark:text-white">React Todo</h1>
       </div>
       <div className="flex items-center max-w-lg mx-auto mt-10">
         <div className="relative w-full">
